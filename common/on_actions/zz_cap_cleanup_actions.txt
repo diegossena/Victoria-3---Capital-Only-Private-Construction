@@ -1,0 +1,22 @@
+on_monthly_pulse = {
+	effects = {
+		every_country = {
+			limit = { is_player = yes }
+			every_owned_state = {
+				limit = { is_capital = no }
+				if = {
+					limit = { 
+						has_building = building_financial_district 
+					}
+					downsize_building = building_financial_district
+				}
+				if = {
+					limit = { 
+						has_building = building_manor_house 
+					}
+					downsize_building = building_manor_house
+				}
+			}
+		}
+	}
+}
