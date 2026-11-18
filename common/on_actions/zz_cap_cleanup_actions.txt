@@ -6,15 +6,15 @@ on_monthly_pulse = {
 				limit = { is_capital = no }
 				if = {
 					limit = { 
-						has_building = building_financial_district 
+						building_exists = building_financial_district 
 					}
-					downsize_building = building_financial_district
+					downsize = building_financial_district
 				}
 				if = {
 					limit = { 
-						has_building = building_manor_house 
+						building_exists = building_manor_house 
 					}
-					downsize_building = building_manor_house
+					downsize = building_manor_house
 				}
 			}
 		}
