@@ -1,0 +1,29 @@
+﻿INJECT:building_port = {
+	can_build_private = {
+		owner = { is_ai = yes }
+	}
+}
+
+INJECT:building_trade_center = {
+	can_build_private = {
+		owner = { is_ai = yes }
+	}
+}
+
+INJECT:building_manor_house = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT:building_financial_district = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}

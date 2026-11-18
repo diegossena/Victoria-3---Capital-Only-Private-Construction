@@ -1,0 +1,152 @@
+﻿INJECT_OR_CREATE:building_food_industry = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_textile_mill = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_furniture_manufactory = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_glassworks = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_tooling_workshop = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_paper_mill = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_chemical_plant = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_explosives_factory = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_synthetics_plant = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_steel_mill = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_motor_industry = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_shipyard = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_automotive_industry = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_electrics_industry = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_arms_industry = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_artillery_foundry = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
+
+INJECT_OR_CREATE:building_munition_plant = {
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}

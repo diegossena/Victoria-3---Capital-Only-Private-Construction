@@ -1,0 +1,12 @@
+{
+  "name" : "Capital-Only Private Construction",
+	"id" : "capital_only_private",
+  "version" : "1.0",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "tags" : ["Balance", "Economy"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
