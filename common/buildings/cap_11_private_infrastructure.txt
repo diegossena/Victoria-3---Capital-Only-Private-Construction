@@ -7,15 +7,6 @@
 	}
 }
 
-INJECT:building_trade_center = {
-	can_build_government = {
-		owner = { is_ai = yes }
-	}
-	can_build_private = {
-		owner = { is_ai = yes }
-	}
-}
-
 INJECT:building_manor_house = {
 	can_build_private = {
 		OR = {

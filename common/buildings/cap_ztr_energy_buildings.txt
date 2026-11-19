@@ -1,0 +1,14 @@
+TRY_INJECT:building_renewable_energy_power_plant = {
+  can_build_government = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+	can_build_private = {
+		OR = {
+			is_capital = yes
+			owner = { is_ai = yes }
+		}
+	}
+}
