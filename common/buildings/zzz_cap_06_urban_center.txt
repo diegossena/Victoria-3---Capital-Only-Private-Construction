@@ -1,0 +1,4 @@
+﻿INJECT:building_art_academy = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}

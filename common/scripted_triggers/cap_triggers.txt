@@ -1,0 +1,16 @@
+cap_capital_only = {
+	OR = {
+		is_capital = yes
+		owner = { is_ai = yes }
+	}
+}
+#cap_synthetics = {
+#	OR = {
+#		owner = { is_ai = yes }
+#		NOT = {
+#			owner.capital = {
+#				has_building = building_synthetics_plant
+#			}
+#		}
+#	}
+#}

@@ -1,0 +1,84 @@
+﻿INJECT:building_food_industry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_textile_mill = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_furniture_manufactory = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_glassworks = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_tooling_workshop = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_paper_mill = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_chemical_plant = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_explosives_factory = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+#INJECT:building_synthetics_plant = {
+#	can_build_government = { cap_capital_only = yes }
+#	can_build_private = { cap_capital_only = yes }
+#}
+
+INJECT:building_steel_mill = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_motor_industry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_shipyard = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+#INJECT:building_automotive_industry = {
+#	can_build_government = { cap_capital_only = yes }
+#	can_build_private = { cap_capital_only = yes }
+#}
+
+INJECT:building_electrics_industry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_arms_industry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_artillery_foundry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+INJECT:building_munition_plant = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}

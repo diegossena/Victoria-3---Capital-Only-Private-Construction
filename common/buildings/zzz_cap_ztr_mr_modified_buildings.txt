@@ -1,0 +1,33 @@
+#Opera House
+
+TRY_INJECT:building_elgar_opera = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+# Publishing Industry
+TRY_INJECT:building_manzoni_publishing_industry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+#Instrument Workshops
+
+TRY_INJECT:building_instrument_workshops = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+# Mendelejev Rubber & Oil (In Tech & Res these are respectively Refinery Industry and Petrochemical Industry)
+
+#Hydrogenation Plants (Oil Refinery Industry)
+TRY_INJECT:building_mendelejew_hydrogenation_plants = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+#Synthetic Rubber Factory (Petrochemical Industry)
+TRY_INJECT:building_mendelejew_synthetic_rubber_factory = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}

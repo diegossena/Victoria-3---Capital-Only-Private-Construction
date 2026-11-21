@@ -1,0 +1,35 @@
+﻿#Office
+TRY_INJECT:building_office = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+# Software Industry
+TRY_INJECT:building_software_industry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+# Interactive Media Industry
+TRY_INJECT:building_interactive_media_industry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+# Telecommunications
+TRY_INJECT:building_telecommunications_industry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+# Data Center
+TRY_INJECT:building_datacenter_industry = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}
+
+# E-Commerce Logistic Building
+TRY_INJECT:building_ecommerce_logistics = {
+	can_build_government = { cap_capital_only = yes }
+	can_build_private = { cap_capital_only = yes }
+}

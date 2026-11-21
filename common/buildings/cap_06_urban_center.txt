@@ -1,8 +1,0 @@
-﻿INJECT:building_art_academy = {
-	can_build_private = {
-		OR = {
-			is_capital = yes
-			owner = { is_ai = yes }
-		}
-	}
-}

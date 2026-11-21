@@ -1,0 +1,3 @@
+﻿INJECT:building_dye_plantation = {
+	can_build_private = { owner = { is_ai = yes } }
+}
