@@ -4,13 +4,4 @@ cap_capital_only = {
 		owner = { is_ai = yes }
 	}
 }
-#cap_synthetics = {
-#	OR = {
-#		owner = { is_ai = yes }
-#		NOT = {
-#			owner.capital = {
-#				has_building = building_synthetics_plant
-#			}
-#		}
-#	}
-#}
+cap_banned = { owner = { is_ai = yes }	}

@@ -180,8 +180,8 @@ REPLACE:building_power_plant = {
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 	# CAP
-	can_build_government = { cap_capital_only = yes }
-	can_build_private = { cap_capital_only = yes }
+	can_build_government = { cap_banned = true	}
+	can_build_private =  { cap_banned = true	}
 }
 # Publishing Industry
 REPLACE:building_manzoni_publishing_industry = {
@@ -210,7 +210,6 @@ REPLACE:building_manzoni_publishing_industry = {
 		has_building = building_urban_center				
 		cap_capital_only = yes
 	}
-
 	can_build_private = {
 		has_building = building_urban_center				
 		cap_capital_only = yes

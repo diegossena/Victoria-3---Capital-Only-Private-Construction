@@ -1,20 +1,8 @@
 ﻿INJECT:building_port = {
-	can_build_government = {
-		owner = { is_ai = yes }
-	}
-	can_build_private = {
-		owner = { is_ai = yes }
-	}
+	can_build_government = { cap_banned = true	}
+	can_build_private = { cap_banned = true	}
 }
 
 INJECT:building_trade_center = {
-	should_auto_expand = { owner = { is_ai = yes } }
-}
-
-INJECT:building_manor_house = {
-	can_build_private = { cap_capital_only = yes }
-}
-
-INJECT:building_financial_district = {
-	can_build_private = { cap_capital_only = yes }
+	should_auto_expand = { cap_banned = true }
 }

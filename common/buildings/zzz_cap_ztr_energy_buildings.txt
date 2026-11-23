@@ -1,5 +1,121 @@
 ﻿# Renewable Energy Power Plant
-TRY_INJECT:building_renewable_energy_power_plant = {
+REPLACE:building_renewable_energy_power_plant = {
+	building_group = bg_power
+	icon = "gfx/interface/icons/building_icons/renewable_energy_power_plant.dds"
+	levels_per_mesh = 50
+	city_type = city
+	unlocking_technologies = {
+		photovoltaic_effect
+	}
+	production_method_groups = {
+		pmg_base_building_renewable_energy_power_plant
+		pmg_automation_building_renewable_energy_power_plant
+	}
+	required_construction = construction_cost_monument
+	ai_value = {
+		value = 500
+		if = {
+			limit = {
+				owner = {
+					# Leader Producers of Oil and Gas, or rich oil will still use traditional power plants more
+					NOR = {
+						leading_producer_of = g:oil
+						leading_producer_of = g:gas
+						# Some countries also
+						is_in_geographic_region = geographic_region_middle_east
+						c:VNZ ?= this
+						c:RUS ?= this
+					}
+					OR = {
+						AND = {
+							has_technology_researched = wind_turbines
+							NOT = {
+								has_law_or_variant = law_type:law_no_protection
+							}
+						}
+						# Late Game ambientalism
+						has_technology_researched = urban_sustainability
+					}
+				}
+			}
+			add = 500
+		}
+		# Renewable Energy Plants don't have the "at least one" mechanic as Power Plants already have it
+		if = {
+			limit = {
+				owner = {
+					NOR = {
+						leading_producer_of = g:oil
+						leading_producer_of = g:gas
+						# Some countries also
+						is_in_geographic_region = geographic_region_middle_east
+						c:VNZ ?= this
+						c:RUS ?= this
+					}
+					has_technology_researched = advanced_solar_panels
+					NOT = {
+						has_law_or_variant = law_type:law_no_protection
+					}
+				}
+			}
+			add = 1000
+		}
+		# CAP
+		if = {
+			limit = {
+				is_capital = yes
+				owner = { is_player = yes }
+			}
+			add = 1500
+		}
+	}
+	possible = {
+		owner = {
+			NOT = {
+				has_law_or_variant = law_type:law_industry_banned
+			}
+			custom_tooltip = {
+				text = building_renewable_energy_requires_national_electric_system_tt
+				NOT = {
+					has_law_or_variant = law_type:law_no_national_electric_system
+				}
+			}
+		}
+	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+	# CAP
 	can_build_government = { cap_capital_only = yes }
 	can_build_private = { cap_capital_only = yes }
+}
+
+# Geothermal Power Plant
+REPLACE:building_geothermal_power_plant = {
+	building_group = bg_power
+	icon = "gfx/interface/icons/building_icons/building_geothermal_power_plant.dds"
+	levels_per_mesh = 5
+	city_type = city
+	ignore_stateregion_max_level = yes
+	expandable = no
+	required_construction = construction_cost_monument
+	unlocking_technologies = {
+		geothermal_energy
+	}
+	production_method_groups = {
+		pmg_geothermal_reactor
+		pmg_automation_building_geothermal_power_plant
+		pmg_power_transmission_large
+	}
+	can_build_government = {
+		# Actual Triggers
+		agassiz_state_has_volcano = yes
+		# CAP
+		cap_banned = yes
+	}
+	potential = {
+		agassiz_state_has_volcano = yes
+	}
+	can_build_private = { always = no	}
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	ai_value = 1600	# Geothermal Power Plant is important
 }
